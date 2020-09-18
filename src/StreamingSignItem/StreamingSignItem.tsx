@@ -1,11 +1,12 @@
 import React from 'react'
-import youtubeIcon from './images/youtube-icon.png'
+import youtubeIcon from '../images/youtube-icon.png'
+import './StreamingSignItem.css'
 
 const StreamingSignItem: React.FC = () => {
     return (
-        <div>
+        <div className='SteamingSignItem'>
             <img src={youtubeIcon} />
-            <h1>配信中</h1>
+            <p>配信中</p>
         </div>
     )
 }

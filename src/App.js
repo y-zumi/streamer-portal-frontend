@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import StreamingSignItem from './StreamingSignItem.tsx';
+import StreamingSignItem from './StreamingSignItem/StreamingSignItem.tsx';
 
 function App() {
   return (
