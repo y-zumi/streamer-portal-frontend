@@ -4,10 +4,6 @@ import twitchIcon from '../images/twitch-icon.png'
 import niconicoIcon from '../images/niconico-icon.png'
 import './StreamingSignItem.css'
 
-declare namespace StreamingMedia {
-    export function image(media: StreamingMedia)
-}
-
 enum StreamingMedia {
     youtube,
     twitch,
