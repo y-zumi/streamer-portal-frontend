@@ -1,0 +1,16 @@
+.GlobalHeader {
+    background-color: #001B6A;
+    height: 44px;
+    width: 100%;
+    line-height: 44px;
+}
+
+.GlobalHeader h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 44px;
+    text-align: left;
+    vertical-align: middle;
+}
