@@ -3,6 +3,8 @@
     padding: 40px 60px;
     width: 70px;
     border-radius: 10px;
+    display: inline-block;
+    margin: auto 20px;
 }
 
 .Streaming {
@@ -10,7 +12,9 @@
 }
 
 .SteamingSignItem img {
-    width: 70px;
+    width: 62x;
+    height: 62px;
+    object-fit: contain;
 }
 
 .SteamingSignItem p {
