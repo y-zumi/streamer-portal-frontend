@@ -1,0 +1,24 @@
+.SteamingSignItem {
+    background-color: #DDDDDD;
+    padding: 40px 60px;
+    width: 70px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: auto 20px;
+}
+
+.Streaming {
+    background-color: #E3F3DA;
+}
+
+.SteamingSignItem img {
+    width: 62x;
+    height: 62px;
+    object-fit: contain;
+}
+
+.SteamingSignItem p {
+    margin: 46px auto 0px auto;
+    color: #52554F;
+    font-weight: bold;
+}
