@@ -1,8 +1,12 @@
 .SteamingSignItem {
-    background-color: #E3F3DA;
+    background-color: #DDDDDD;
     padding: 40px 60px;
     width: 70px;
     border-radius: 10px;
+}
+
+.Streaming {
+    background-color: #E3F3DA;
 }
 
 .SteamingSignItem img {
@@ -11,4 +15,6 @@
 
 .SteamingSignItem p {
     margin: 46px auto 0px auto;
+    color: #52554F;
+    font-weight: bold;
 }
