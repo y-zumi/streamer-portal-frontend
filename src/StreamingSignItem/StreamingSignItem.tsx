@@ -21,7 +21,7 @@ function image(media: StreamingMedia) {
     }
 }
 
-const StreamingSignItem: React.FC<Props> = ({media, isStreaming}) => {
+const StreamingSignItem: React.FC<Props> = ({ media, isStreaming }) => {
     return (
         <div className={`SteamingSignItem ${isStreaming ? 'Streaming' : ''}`}>
             <img src={image(media)} />
